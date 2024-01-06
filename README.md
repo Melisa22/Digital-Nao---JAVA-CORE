@@ -42,7 +42,7 @@
 |`start`| Optional | Parameter defines the result offset. It skips the given number of results. It's used for pagination. (e.g., `0` (default) is the first page of results, `10` is the 2nd page of results, `20` is the 3rd page of results, etc.).  Google Local Results only accepts multiples of `20`(e.g. `20` for the second page results, `40` for the third page results, etc.) as the start value. |  
 | `num` | Optional |  Parameter defines the maximum number of results to return. (e.g., `10` (default) returns 10 results, `40` returns 40 results, and `100` returns 100 results).|
 
-|![](https://serpapi.com/img/square-logo-v3-small.png)Serpapi Parameters  |  |  |
+|Serpapi Parameters  |  |  |
 |--|--|--|
 | engine | Required  | Set parameter to `google` to use the Google API engine |
 | device | Optional | Parameter defines the device to use to get the results. It can be set to `desktop` (default) to use a regular browser, `tablet` to use a tablet browser (currently using iPads), or `mobile` to use a mobile browser (currently using iPhones). |
